@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krushna Chandra Mohanta | Official Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0A0A0A; font-family: 'Inter', sans-serif; }
+        .gold-text { color: #D4AF37; }
+        .gold-bg { background-color: #D4AF37; }
+        .gold-border { border-color: #D4AF37; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); }
+    </style>
+</head>
+<body class="text-gray-200 min-h-screen flex flex-col justify-between">
+
+    <!-- Premium Navbar -->
+    <nav class="w-full max-w-7xl mx-auto px-6 py-6 flex justify-between items-center border-b border-gray-900 absolute top-0 left-0 right-0 z-50">
+        <div class="text-xl font-bold tracking-widest gold-text">KCM.</div>
+        <div class="flex space-x-8 text-sm uppercase tracking-wider font-medium">
+            <a href="index.html" class="gold-text border-b gold-border pb-1">Home</a>
+            <a href="about.html" class="hover:text-amber-400 transition">Lifestyle</a>
+            <a href="achievements.html" class="hover:text-amber-400 transition">Credentials</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="max-w-7xl mx-auto px-6 pt-32 pb-16 w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center flex-grow">
+        <div class="space-y-6">
+            <span class="text-sm uppercase tracking-widest gold-text font-semibold">The Digital Sanctuary of</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                Krushna Chandra <br><span class="gold-text">Mohanta</span>
+            </h1>
+            <p class="text-gray-400 text-lg leading-relaxed max-w-md">
+                Exploring the frontiers of technology, continuous learning, and crafting a life driven by ambition, structure, and elegance.
+            </p>
+            <div class="pt-4 flex space-x-4">
+                <a href="about.html" class="gold-bg text-black px-6 py-3 rounded-none font-semibold uppercase tracking-wider text-xs hover:bg-yellow-500 transition shadow-lg">Explore Lifestyle</a>
+                <a href="https://www.instagram.com/krushnachandra351a?igsh=MWUxbDBodmFxMjZ6eQ==" target="_blank" class="glass text-white px-6 py-3 rounded-none font-semibold uppercase tracking-wider text-xs hover:bg-white hover:text-black transition">Follow on Instagram</a>
+            </div>
+        </div>
+        
+        <!-- Luxury Wrapped Image Card -->
+        <div class="relative justify-self-center md:justify-self-end w-full max-w-sm aspect-[4/5] p-3 gold-border border">
+            <div class="w-full h-full relative overflow-hidden bg-zinc-900">
+                <img src="IMG-20260603-WA0004.jpg" alt="Krushna Chandra Mohanta" class="w-full h-full object-cover filter contrast-110 grayscale hover:grayscale-0 transition duration-700">
+                <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black to-transparent">
+                    <p class="text-xs uppercase tracking-widest text-gray-400">Born on</p>
+                    <p class="text-lg font-bold text-white">16 March 2008</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Luxury Map & Contact Footer -->
+    <section class="max-w-7xl mx-auto px-6 py-12 w-full grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-gray-900">
+        <div class="glass p-6 flex flex-col justify-between space-y-4">
+            <div>
+                <h3 class="text-sm uppercase tracking-widest gold-text font-semibold mb-2">Connect Directly</h3>
+                <p class="text-2xl font-bold text-white">Let's Connect</p>
+            </div>
+            <div class="space-y-1 text-sm text-gray-400">
+                <p>Phone: <span class="text-white font-mono">+91 9337528039</span></p>
+                <p>Location: Asanmani, Thakurmunda, Mayurbhanj, Odisha</p>
+            </div>
+        </div>
+
+        <!-- Embedded Interactive Google Map -->
+        <div class="md:col-span-2 h-48 w-full border border-gray-800 relative bg-zinc-900 overflow-hidden">
+            <iframe class="w-full h-full filter invert drop-shadow-md opacity-75 grayscale" 
+                    src="https://maps.google.com/maps?q=Asanmani,%20Thakurmunda,%20Mayurbhanj,%20Odisha&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+    </section>
+
+</body>
+</html>
